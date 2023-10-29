@@ -998,6 +998,13 @@ h6 {
   }
 }
 
+@media (max-width: 53.375em) {
+  .footer__spollers {
+    -ms-grid-columns: auto auto;
+    grid-template-columns: auto auto;
+  }
+}
+
 @media (max-width: 47.99875em) {
   .button--big {
     padding: 0.9375rem 1.5rem;
@@ -1119,11 +1126,6 @@ h6 {
     -webkit-transform: rotate(45deg);
         -ms-transform: rotate(45deg);
             transform: rotate(45deg);
-  }
-
-  .footer__spollers {
-    -ms-grid-columns: auto auto;
-    grid-template-columns: auto auto;
   }
 
   .copy__text {
